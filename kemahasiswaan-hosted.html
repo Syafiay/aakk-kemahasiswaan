@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kemahasiswaan - Biro AAKK UIN Jakarta</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: verdana, geneva, sans-serif;
+    background: transparent;
+  }
+
+  .aakk-kemhas-section {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px;
+    text-align: center;
+  }
+
+  /* 1. Logo */
+  .aakk-logo { margin-bottom: 20px; }
+  .aakk-logo img {
+    max-width: 120px;
+    height: auto;
+    display: inline-block;
+  }
+
+  /* 2. Judul + penjelasan */
+  .aakk-title {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #236fa1;
+    margin: 0 0 16px 0;
+  }
+  .aakk-desc {
+    font-size: 12pt;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+    margin: 0 0 20px 0;
+  }
+
+  /* Tombol pendukung */
+  .aakk-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 36px;
+  }
+  .aakk-links a {
+    font-size: 10.5pt;
+    color: #236fa1;
+    text-decoration: none;
+    border: 1px solid #236fa1;
+    padding: 6px 14px;
+    border-radius: 20px;
+    transition: background-color .2s, color .2s;
+  }
+  .aakk-links a:hover {
+    background-color: #236fa1;
+    color: #fff;
+  }
+
+  /* 3. Banner UKM */
+  .aakk-ukm-banner {
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    line-height: 0;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    transition: box-shadow .3s ease;
+  }
+  .aakk-ukm-banner:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.28);
+  }
+  .aakk-ukm-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform .35s ease;
+  }
+  .aakk-ukm-banner:hover img {
+    transform: scale(1.06);
+  }
+  .aakk-ukm-caption {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0));
+    color: #fff;
+    padding: 30px 20px 16px;
+    text-align: left;
+    font-size: 13pt;
+    font-weight: bold;
+  }
+  .aakk-ukm-caption span {
+    display: block;
+    font-size: 9.5pt;
+    font-weight: normal;
+    opacity: .85;
+    margin-top: 2px;
+  }
+</style>
+</head>
+<body>
+
+<div class="aakk-kemhas-section">
+
+  <div class="aakk-logo">
+    <img src="https://asset.uinjkt.ac.id/uploads/LOGO-UIN-JAKARTA.png" alt="Logo UIN Syarif Hidayatullah Jakarta">
+  </div>
+
+  <h2 class="aakk-title">Kemahasiswaan</h2>
+  <p class="aakk-desc">UIN Syarif Hidayatullah Jakarta, melalui Kemahasiswaan dan Alumni mengedepankan pembentukan karakter dan kompetensi mahasiswa melalui berbagai kegiatan akademik dan non-akademik.</p>
+
+  <div class="aakk-links">
+    <a href="https://biroaakk.uinjkt.ac.id/id/profil-tim-kerja-kemahasiswaan-alumni" target="_blank" rel="noopener">Profil Tim Kerja &gt;&gt;</a>
+    <a href="https://biroaakk.uinjkt.ac.id/id/tim-kerja-kerjasama-dan-alumni" target="_blank" rel="noopener">Tim Kerja &amp; Alumni &gt;&gt;</a>
+  </div>
+
+  <a class="aakk-ukm-banner" href="https://biroaakk.uinjkt.ac.id/id/profil-sejarah-ukm-uin-syarif-hidayatullah-jakarta" target="_blank" rel="noopener">
+    <img src="https://asset.uinjkt.ac.id/uploads/VoKNvCnp/2024/10/organisasibiro-aakk.png" alt="Unit Kegiatan Mahasiswa (UKM)">
+    <div class="aakk-ukm-caption">
+      Unit Kegiatan Mahasiswa (UKM)
+      <span>Klik untuk melihat daftar UKM &gt;&gt;</span>
+    </div>
+  </a>
+
+</div>
+
+</body>
+</html>
